@@ -1,24 +1,10 @@
-"""
-Mobius Strip Modeling Assignment - Karkhana.io
-Author: [Your Name]
-Description: This script models a Mobius strip using parametric equations,
-generates a 3D mesh, and computes the surface area and edge length numerically.
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 class MobiusStrip:
     def __init__(self, R=1.0, w=0.3, n=200):
-        """
-        Initialize Mobius strip parameters.
 
-        Args:
-            R (float): Radius from the center to the strip center.
-            w (float): Width of the strip.
-            n (int): Resolution (number of points per axis).
-        """
         self.R = R
         self.w = w
         self.n = n
